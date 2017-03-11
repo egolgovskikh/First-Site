@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+ <head>
+	<title>Банкетный зал Панорама</title>	
+	<meta name="keywords" content="Банкетный зал">
+	<meta charset="utf-8">
+
+
+	<link rel="shortcut icon" href="Data/Иконка в браузере.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="Data/reset.css">
+	<link rel="stylesheet" type="text/css" href="Data/shadowbox.css">
+	<link rel="stylesheet" type="text/css" href="Data/global.css">
+    <link rel="stylesheet" type="text/css" href="Data/gallery.css">
+    <link rel="stylesheet" type="text/css" href="Data/fonts.css">
+		
+	<script type="text/javascript" src="Data/prototype.js"></script>
+	<script type="text/javascript" src="Data/scriptaculous.js"></script><script type="text/javascript" src="Data/effects.js"></script><script type="text/javascript" src="Data/builder.js"></script>
+	<script type="text/javascript" src="Data/global.js"></script>
+
+    <script type="text/javascript" src="Data/ruzeeborders.js"></script>
+    <script type="text/javascript" src="Data/shadowbox.js"></script>
+
+    <!-- Подкючение Слайдера -->
+    <link rel='stylesheet' id='camera-css'  href='../css/camera.css' type='text/css' media='all'> 
+    <style>
+	body {
+	margin: 0;
+	padding: 0;
+	}
+	a {
+	color: #09f;
+	}
+	a:hover {
+	text-decoration: none;
+	}
+	.fluid_container {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 100%;
+	}
+
+
+	table {
+		border-collapse: separate;
+		width: 100%;
+		border-spacing: 7px 11px;
+		font-family: Verdana;
+		font-weight: normal;
+		font-size: 23px;
+
+	}
+	td {
+		padding: 5px;
+		width: 50%;
+	}
+		tr {
+			height: 30%;
+		}
+	</style>
+
+	    <script type='text/javascript' src='../scripts/jquery.min.js'></script>
+	    <script type='text/javascript' src='../scripts/jquery.mobile.customized.min.js'></script>
+	    <script type='text/javascript' src='../scripts/jquery.easing.1.3.js'></script> 
+	    <script type='text/javascript' src='../scripts/camera.min.js'></script> 
+
+	 <script>
+	jQuery(function(){
+	jQuery('#camera_wrap_1').camera({
+	thumbnails: true
+	});
+	jQuery('#camera_wrap_2').camera({
+	height: '400px',
+	loader: 'bar',
+	pagination: false,
+	thumbnails: true
+	});
+	});
+	</script>
+
+</head>
+
+<body>
+
+
+<div id="outer">
+ 	
+<div id="header" class="pnged">
+	<a id="logo" href="index.html" title="Панорама">Панорама</a>
+</div>
+
+
+<!-- Меню сайта -->
+	<div class="tmenu pnged">
+		<hr>
+		<div class="hmenu-container">
+			<ul id="page_tabs" class="page_tabs">
+
+				<li id="menu_item_148748" class="mli activelink pnged">
+					<a href="index.html">Главная</a>
+
+				</li>
+
+				<li id="menu_item_148750" class="mli pnged">
+					<a href="О_ресторане.html">О ресторане</a>
+
+				</li>
+
+				<li id="menu_item_148752" class="mli pnged">
+					<a href="Наши_услуги.html">Банкетный зал</a>
+
+				</li>
+
+				<li id="menu_item_148753" class="mli pnged">
+					<a href="Меню.html">Меню</a>
+
+				</li>
+
+				<li id="menu_item_148749" class="mli pnged">
+					<a href="Контакты.html">Контакты</a>
+
+				</li>
+
+			</ul>
+		</div>
+		<hr>
+	</div>
+		
+<!-- Слайдер -->
+	<div class="fluid_container">
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-thumb="../images/slides/thumbs/1.jpg" data-src="../images/slides/1.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Текст слайда
+                </div>
+            </div>
+            <div data-thumb="../images/slides/thumbs/2.jpg" data-src="../images/slides/2.jpg">
+                <div class="camera_caption fadeFromBottom">
+                   Текст слайда
+                </div>
+            </div>
+            <div data-thumb="../images/slides/thumbs/3.jpg" data-src="../images/slides/3.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Текст слайда
+                </div>
+            </div>
+            <div data-thumb="../images/slides/thumbs/4.jpg" data-src="../images/slides/4.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Текст слайда
+                </div>
+            </div>
+            <div data-thumb="../images/slides/thumbs/5.jpg" data-src="../images/slides/5.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Текст слайда
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Карточки Наши услуги -->
+
+	<div class="panel panel-49 panel-49-286346016 roundcorners">
+		<h3 class="title" align="center" ><a href="Наши_услуги.html">Наши предложения</a></h3>
+
+	<table class="table">
+		<tr>
+			<td>
+				<div class="card3" align="center" id="cards">
+					<img src="Data/svadbi.jpg" alt="Avatar" style="width:100%">
+					<div class="container">
+						<hr><p>Организация свадеб <hr></p>
+					</div>
+				</div>
+			</td>
+
+			<td >
+				<div class="card3" align="center" id="cards">
+					<img src="Data/jubilee.jpg" alt="Avatar" style="width:100%">
+					<div class="container">
+						<p><hr>Организация юбилеев</p><hr>
+					</div>
+				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<div class="card3" align="center"id="cards">
+					<img src="Data/detskiy-prazdnik.jpg" alt="Avatar" style="width:100%">
+					<div class="container">
+						<hr><p>Организация детских праздников</p><hr>
+					</div>
+				</div>
+			</td>
+
+			<td>
+				<div class="card3" align="center"id="cards">
+					<img src="Data/seminar.jpg" alt="Avatar" style="width:100%">
+					<div class="container">
+						<hr><p>Организация семинаров</p><hr>
+					</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="card3" align="center" id="cards">
+					<img src="Data/delovoi-obed.jpg" alt="Avatar" style="width:100%">
+					<div class="container">
+						<p><hr>Организация деловых обедов</p><hr>
+					</div>
+				</div>
+			</td>
+
+			<td>
+				<div class="card3" align="center" id="cards">
+					<img src="Data/pominki.jpg" alt="Avatar" style="width:100%">
+					<div class="container">
+						<p><hr>Организация поминок<hr></p>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+		<br><br><br>
+
+		<div class="panel panel-49 panel-49-286346016 roundcorners">
+			<h3 class="title" align="center">
+				<a>Отзывы</a>
+			</h3><br>
+
+		<div class="container2">
+			<img src="Data/avatar1.jpg" alt="Avatar" style="width:90px">
+			<p><span>Антон Антонов.</span> Mail Group.</p><br>
+			<p>Отличное месторасположение, сытные и не дорогие обеды, панорама это выбор человека, которому дорого свое время, здесь приносят полноценный обед за считанные секунды, .</p>
+		</div>
+
+		<div class="container2">
+			<img src="Data/avatar2.jpg" alt="Avatar" style="width:90px">
+			<p><span >Александра Александровна.</span> Google Inc.</p><br>
+			<p>Дружелюбные официанты, вкусная еда .</p>
+		</div>
+
+
+<div id="footer">
+<div class="footer" align="center">
+   <a href="О_ресторане.html">О нас</a> &nbsp;•&nbsp; <a href="Контакты.html">Контакты</a> &nbsp;&nbsp;&nbsp;© 2017 «Панорама» - Все права защищены.
+</div>
+</div>
+
+</div>
+</body>

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<head>
+    <title>Холодные закуски</title>
+    <meta name="keywords" content="Меню">
+    <meta name="description" content="Меню">
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" href="Data/Иконка в браузере.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="Data/reset.css">
+    <link rel="stylesheet" type="text/css" href="Data/shadowbox.css">
+    <link rel="stylesheet" type="text/css" href="Data/global.css">
+    <link rel="stylesheet" type="text/css" href="Data/gallery.css">
+    <link rel="stylesheet" type="text/css" href="Data/fonts.css">
+
+    <script type="text/javascript" src="Data/prototype.js"></script>
+    <script type="text/javascript" src="Data/scriptaculous.js"></script><script type="text/javascript" src="Data/effects.js"></script><script type="text/javascript" src="Data/builder.js"></script>
+    <script type="text/javascript" src="Data/global.js"></script>
+    <script type="text/javascript" src="Data/ruzeeborders.js"></script>
+    <script type="text/javascript" src="Data/shadowbox.js"></script>
+
+    <style>
+
+        A {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+        .container {
+            width: 570px;
+        }
+
+        .image {
+            opacity: 1;
+            display: block;
+            width: 600px;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%)
+        }
+
+        .container:hover .image {
+            opacity: 0.3;
+        }
+
+        .container:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+            background-color: #898989;
+            color: white;
+            font-size: 30px;
+            padding: 16px 32px;
+            font-family: 'FjallaOneRegular',sans-serif;
+            text-transform: uppercase;
+        }
+
+        .container:hover .image {
+            opacity: 0.3;
+        }
+
+        .container:hover .middle {
+            opacity: 1;
+        }
+
+
+        .engper {
+            float: left;
+            margin: -10px 0 20px 0;
+            color: #898989;
+            font-size: 12px;
+            text-transform: lowercase;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .text-center {
+         color: #000001;
+            text-align: center;
+            font-family: 'FjallaOneRegular',sans-serif;
+            font-size: 40px;
+
+        }
+        .ct-foodBox {
+         background-color: #FFFFFF;
+            border: solid;
+            border-color: #000000;
+            border-width: 1px;
+            width: 600px;
+            margin: auto;
+            text-indent: 10px;
+        }
+
+        .ct-u-font2 {
+            color: #393538;
+            font-weight: bold;
+            font-family: 'FjallaOneRegular',sans-serif;
+            text-transform: uppercase;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+
+        .ct-u-font3 {
+            color: #393538;
+            font-weight: bold;
+            font-family: 'FjallaOneRegular',sans-serif;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+
+        .ptn13 {
+            background: url("Data/white.png") repeat;
+        }
+
+        li.ct-foodMenu {
+            overflow: hidden;
+            padding: 0 0 0;
+            position: relative;
+            color: #000001;
+            font-family: 'FjallaOneRegular',sans-serif;
+        }
+        @media (max-width: 480px) {
+            li.ct-foodMenu {
+                text-align: center;
+            }
+            li.ct-foodMenu label {
+                width: 100%;
+                font-size: 17px !important;
+                padding-right: 0 !important;
+            }
+            .ct-foodBox {
+                padding-bottom: 20px;
+            }
+            @media (max-width: 480px) {
+                .ct-foodBox > h3 {
+                    font-size: 18px;
+
+                }
+            }
+            .ct-foodBox:last-child ul:last-child li:last-child div {
+                padding-bottom: 0;
+            }
+            li.ct-foodMenu {
+                overflow: hidden;
+                padding: 0 0 0;
+                position: relative;
+            }
+            }
+
+
+    </style>
+    <link rel="stylesheet" href="Data/global.css">
+
+
+</head>
+
+<body>
+
+<div id="outer">
+
+    <div id="header" class="pnged">
+        <a id="logo" href="index.html" title="Панорама">Панорама</a>
+    </div>
+
+
+
+    <div class="tmenu pnged">
+        <hr>
+        <div class="hmenu-container">
+            <ul id="page_tabs" class="page_tabs">
+
+                <li id="menu_item_148748" class="mli pnged">
+                    <a href="index.html">Главная</a>
+
+                </li>
+
+                <li id="menu_item_148750" class="mli pnged">
+                    <a href="О_ресторане.html">О ресторане</a>
+
+                </li>
+
+                <li id="menu_item_148752" class="mli pnged">
+                    <a href="Наши_услуги.html">Банкетный зал</a>
+
+                </li>
+
+                <li id="menu_item_148753" class="mli pnged">
+                    <a href="Меню.html">Меню</a>
+
+                </li>
+
+                <li id="menu_item_148749" class="mli pnged">
+                    <a href="Контакты.html">Контакты</a>
+
+                </li>
+
+            </ul>
+        </div>
+        <hr>
+    </div>
+
+    <div align="center">
+        <div class="container" >
+            <img src="Data/banketie-bluda2.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+                <div class="text"><a href="Меню.html"> Обратно в меню</a></div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="ct-foodBox">
+        <div class="ct-imageBox ct-u-marginTop5 section section_1" id="snacks-salads" style="display: block; position: relative; float: none;">
+        </div>
+        <hr data-bgrepeat="no-repeat" class="hr-custom ct-js-background">
+        <p class="text-center text-uppercase ct-fw-600">Банкетные блюда</p>
+        <hr data-bgrepeat="no-repeat" class="hr-custom ct-js-background">
+        <ul><br>
+            <li class="ct-foodMenu">
+            <div style="height: 20px; display: -webkit-box;">
+                <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font2 ptn13">
+                    Стерлядь
+                </div>
+                <div style="display: -webkit-box; -webkit-box-flex: 1;  margin: 0 10px; background: url('Data/point.jpg') center center repeat-x;">
+                </div>
+                <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font3 ptn13">
+                    1 кг. / 2000 р.
+                </div>
+            </div>
+                <br>
+            </li>
+
+
+            <li class="ct-foodMenu">
+                <div style="height: 20px; display: -webkit-box;">
+                    <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font2 ptn13">
+                        Поросенок молочный
+                    </div>
+                    <div style="display: -webkit-box; -webkit-box-flex: 1;  margin: 0 10px; background: url('Data/point.jpg') center center repeat-x;">
+
+                    </div>
+                    <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font3 ptn13">
+                        1 кг. / 2000 р.
+                    </div>
+                </div><br>
+            </li>
+
+            <li class="ct-foodMenu">
+                <div style="height: 20px; display: -webkit-box;">
+                    <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font2 ptn13">
+                        Хлебная корзина
+                    </div>
+                    <div style="display: -webkit-box; -webkit-box-flex: 1;  margin: 0 10px; background: url('Data/point.jpg') center center repeat-x;">
+
+                    </div>
+                    <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font3 ptn13">
+                        200 р.
+                    </div>
+                </div><br>
+            </li>
+
+            <li class="ct-foodMenu">
+                <div style="height: 20px; display: -webkit-box;">
+                    <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font2 ptn13">
+                        Морс
+                    </div>
+                    <div style="display: -webkit-box; -webkit-box-flex: 1;  margin: 0 10px; background: url('Data/point.jpg') center center repeat-x;">
+
+                    </div>
+                    <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font3 ptn13">
+                        1 л. / 200 р.
+                    </div>
+                </div><br>
+            </li>
+
+            <li class="ct-foodMenu">
+                <div style="height: 20px; display: -webkit-box;">
+                    <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font2 ptn13">
+                        Сок
+                    </div>
+                    <div style="display: -webkit-box; -webkit-box-flex: 1;  margin: 0 10px; background: url('Data/point.jpg') center center repeat-x;">
+
+                    </div>
+                    <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font3 ptn13">
+                        1 л. / 200 р.
+                    </div>
+                </div><br>
+            </li>
+
+            <li class="ct-foodMenu">
+                <div style="height: 20px; display: -webkit-box;">
+                    <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font2 ptn13">
+                        Минеральная вода
+                    </div>
+                    <div style="display: -webkit-box; -webkit-box-flex: 1;  margin: 0 10px; background: url('Data/point.jpg') center center repeat-x;">
+
+                    </div>
+                    <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font3 ptn13">
+                        0,5 л. / 80 р.
+                    </div>
+                </div><br>
+            </li>
+
+            <li class="ct-foodMenu">
+                <div style="height: 20px; display: -webkit-box;">
+                    <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font2 ptn13">
+                        Лимонад «Черноголовка»
+                    </div>
+                    <div style="display: -webkit-box; -webkit-box-flex: 1;  margin: 0 10px; background: url('Data/point.jpg') center center repeat-x;">
+
+                    </div>
+                    <div style="display: -webkit-box; -webkit-box-flex: 0;" class="ct-u-font3 ptn13">
+                        0,5 л. / 80 р.
+                    </div>
+                </div><br>
+            </li>
+
+
+        </ul>
+    </section>
+
+
+
+
+
+    <div id="footer">
+    <div class="footer" align="center">
+        <a href="О_ресторане.html">О нас</a> &nbsp;•&nbsp; <a href="Контакты.html">Контакты</a> &nbsp;&nbsp;&nbsp;© 2017 «Панорама» - Все права защищены.
+    </div>
+
+</div>
+</div>
+</body>
