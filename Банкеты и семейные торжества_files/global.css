@@ -6,7 +6,7 @@ body {
 	text-decoration: none;
 	font-size: medium;
 	background-color: #transparent;
-	background-image: url(../img/bg.gif?18e39639-d800-46d1-b06f-b7ce369541ce);
+	background-image: url(img/bg.gif?18e39639-d800-46d1-b06f-b7ce369541ce);
 	background-position: 0 10;
 	background-repeat: repeat;
 	background-attachment: scroll;
@@ -51,7 +51,7 @@ div.closed-box {
 	font-style: normal;
 	font-weight: normal;
 	text-decoration: none;
-	background-image: url(../img/bg_header.gif?ffa28ee6-de6c-47f1-bd4f-a742ede0b232);
+	background-image: url(img/bg_header.gif?ffa28ee6-de6c-47f1-bd4f-a742ede0b232);
 	border-color: #FFFFFF;
 	border-style: solid;
 	z-index: 10;
@@ -110,7 +110,7 @@ table.table-content td.right {
 div.footer {
 	padding: 15PX 10PX 5PX 10PX;
 	background-color: #transparent;
-	background-image: url(../img/bg_footer.gif?a6e99253-dc1e-41b3-b722-8f21d86354c7);
+	background-image: url(img/bg_footer.gif?a6e99253-dc1e-41b3-b722-8f21d86354c7);
 	background-position: left top;
 	background-repeat: repeat-x;
 	background-attachment: scroll;
@@ -448,7 +448,8 @@ div.user-greeting a:hover {
 	text-decoration: none;
 }
 
-div.hmenu-container {
+
+div.hmenu-container {
 position: relative;
 width: auto!important;
 margin:auto;
@@ -504,7 +505,8 @@ ul.top-level-categories li {
 margin-bottom: 0!important;
 border-bottom: 1px dotted #4F4439;
 }
-.coin-slider { overflow: hidden; zoom: 1; position: relative; color: #B8C4CF; }
+
+.coin-slider { overflow: hidden; zoom: 1; position: relative; color: #B8C4CF; }
 .coin-slider a{ text-decoration: none; outline: none; border: none; }
 
 .cs-buttons { font-size: 0px; padding: 10px; float: left; }
@@ -528,14 +530,15 @@ display:inline-block;
 opacity: 1;
 width: 200px;
 }
-div.tmenu {
+
+div.tmenu {
 	position: relative;
 	margin: 0PX 0PX 0PX 0PX;
 	padding: 5PX 10PX 8PX 10PX;
 	z-index: 10;
 	overflow: visible;
 	background-color: #transparent;
-	background-image: url(../img/bgmenu.gif?0974035a-c61e-4bf4-8947-d0aa3e06a47e);
+	background-image: url(img/bgmenu.gif?0974035a-c61e-4bf4-8947-d0aa3e06a47e);
 	background-position: left bottom;
 	background-repeat: repeat-x;
 	background-attachment: scroll;

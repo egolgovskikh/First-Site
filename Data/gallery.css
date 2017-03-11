@@ -34,7 +34,7 @@ font-size: 11px;
 position:fixed; top:0px; left:50%; 
 margin-left:-410px;
 background: #000;
-background: url(../../../img/black50.png) repeat; 
+background: url(img/black50.png) repeat;
 color: #fff; 
 padding: 5px 10px 0px 10px; 
 z-index: 99999; 
@@ -97,7 +97,7 @@ div.site-collection a.how-to-remove { margin-right:5px; color: #000; font-size: 
      position: fixed; top: 0; left: 0; 
      width: 100%; height: 100%; 
      z-index: 99991 !important; 
-     background: url(../../../img/black90.png) repeat;
+     background: url(img/black90.png) repeat;
 }
 
 div.gallerysite_screen_overlay_form {
@@ -134,7 +134,7 @@ div.gallerysite_screen_overlay_form fieldset input, #gallerysite_screen_overlay_
 div.gallerysite_screen_overlay_form fieldset div.field-row div.name { font-size:14px; padding-left:10px; position:relative; float:left; width: 180px; font-weight: bold; color: #873300; text-align:right; line-height:30px; }
 div.gallerysite_screen_overlay_form fieldset div.field-row div.value { margin-left: 200px; color: #bb4600; }
 div.gallerysite_screen_overlay_form fieldset div.field-row p.hint { margin: 5px 0px 0px 200px; font-size: 11px; color: #873300; }
-div.gallerysite_screen_overlay_form p.error { font-size: 11px; color: #5e0000; background: #ffc3c3 url(../img/icons/icon-error.gif) no-repeat; border: 1px solid #bd1c1c; padding: 8px 20px 8px 30px; margin: 5px 0px 10px 0px; }
+div.gallerysite_screen_overlay_form p.error { font-size: 11px; color: #5e0000; background: #ffc3c3 url(img/icons/icon-error.gif) no-repeat; border: 1px solid #bd1c1c; padding: 8px 20px 8px 30px; margin: 5px 0px 10px 0px; }
 div.gallerysite_screen_overlay_form fieldset div.field-row p.error { margin: 5px 0px 0px 200px; }
 
 div.gallerysite_screen_overlay_form h2 { font-size:16px; margin:0px 0px 10px 0px; color: #551e00; background: none; }
@@ -165,7 +165,7 @@ div.gallerysite_screen_overlay_form a.btn-gallerysite_screen_overlay_form:hover
 
 div.gallerysite_screen_overlay_form a.btn-gallerysite_screen_overlay_form_create_site
 {
-	background: #ff9000 url(../../../img/icons/icon-32-ok.png) 10px center no-repeat;
+	background: #ff9000 url(img/icons/icon-32-ok.png) 10px center no-repeat;
 	padding-left: 50px; text-align:left;
 	line-height:20px;
 }
